@@ -1,0 +1,37 @@
+/**
+ *
+ * HOME PAGE TOP HERO UNIT
+ * This involves the header area. Call-out section.
+ */
+
+#drasi-home-top-info-unit {
+	min-height: 600px;
+	background: darken( $imb-third, 2.5% );
+
+
+	.content {
+		// background: url('/wp-content/uploads/2017/10/the-gray-blob-bg-600w.png');
+		min-height: 800px;
+		// background: url(/wp-content/uploads/2017/10/the-gray-blob-600w.png) no-repeat center center; 
+		background: url(/wp-content/uploads/2017/10/the-gray-blob-bg-600w.png) no-repeat center center; 
+		  -webkit-background-size: 100%;
+		  -moz-background-size: 100%;
+		  -o-background-size: 100%;
+		  background-size: 100%;	
+
+		.text-only {
+			padding-top: 8rem;
+			padding-left: 20rem;
+			padding-right: 15rem;
+
+			.headline {
+				color: $imb-secondary;
+				font-size: 4.5rem;
+			}
+			p {
+				font-size: 2rem;
+				line-height: 3rem;
+			}
+		}
+	}
+}
