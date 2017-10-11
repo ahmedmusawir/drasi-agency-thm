@@ -43,7 +43,11 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_css/hero/component.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_css/tilt-img/component-1.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_css/social-proof/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_css/iphone/component3.css" />
+
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/js/iphone/modernizr.custom.js"></script> -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/social-proof/modernizr.custom.26633.js"></script>
+
 <noscript>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_css/social-proof/fallback.css" />
 </noscript>
@@ -90,7 +94,7 @@
                     trigger.classList.remove('btn--hidden');
                         segmenter.animate();
                         headline.classList.remove('trigger-headline--hidden');
-                        this.classList.add('btn--hidden');
+                        // this.classList.add('btn--hidden');
                 }
             });
     })();

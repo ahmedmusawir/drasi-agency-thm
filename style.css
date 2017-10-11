@@ -6189,37 +6189,16 @@ img {
 
 /**
  *
- * HOME PAGE INFO BLOCK
+ * HOME PAGE SERVICE ROADMAP
  *
  */
-#imb-home-info-block {
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-  background: url("/wp-content/uploads/2017/07/skulls-white.jpg") fixed; }
-  #imb-home-info-block .content-box .headline {
-    color: #bbff0f;
-    padding-bottom: 4rem; }
-  #imb-home-info-block .content-box .text-box {
-    background: url(/wp-content/uploads/2017/06/skulls-jennifer-400x400.jpg) fixed;
-    box-shadow: 2px 2px 12px gray;
-    min-height: 350px;
-    margin-bottom: 2rem; }
-    @media (max-width: 991px) {
-      #imb-home-info-block .content-box .text-box {
-        min-height: 380px; } }
-    @media (max-width: 767px) {
-      #imb-home-info-block .content-box .text-box {
-        min-height: 360px; } }
-    #imb-home-info-block .content-box .text-box .text-only {
-      color: white;
-      padding: 4rem 2rem;
-      text-align: center; }
-      @media (max-width: 991px) {
-        #imb-home-info-block .content-box .text-box .text-only {
-          font-size: 2rem; } }
-      @media (max-width: 767px) {
-        #imb-home-info-block .content-box .text-box .text-only {
-          font-size: 2.5rem; } }
+/**
+ *
+ * HOME PAGE TOP HERO UNIT
+ * This involves the header area. Call-out section.
+ */
+#drasi-home-service-roadmap {
+  min-height: 700px; }
 
 /**
  *

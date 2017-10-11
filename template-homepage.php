@@ -326,7 +326,7 @@ get_header('home'); ?>
             });
 
             var pater = document.querySelector('.pater'),
-                paterSVG = pater.querySelector('.pater__svg'),
+                // paterSVG = pater.querySelector('.pater__svg'),
                 pathEl = paterSVG.querySelector('path'),
                 paths = {default: pathEl.getAttribute('d'), active: paterSVG.getAttribute('data-path-hover')};
 
@@ -352,6 +352,45 @@ get_header('home'); ?>
         })();
         </script>
 	
+</section> <!-- End imb-home-info-block -->
+
+<section id="drasi-home-service-roadmap" class="container-fluid">
+
+
+    <div class="main">
+        <div id="ac-wrapper" class="ac-wrapper">
+            <h2>Our Focus <span>Click &amp; Find Out</span></h2>
+            <div class="ac-device">
+                <a href="#"><img src="/wp-content/uploads/2017/10/screen1.png"/></a>
+                <h3 class="ac-title">Gentrify small batch umami retro vegan</h3>
+                <nav>
+                    <span>&lt;</span>
+                    <span>&gt;</span>
+                </nav>
+            </div>
+            <div class="ac-grid">
+                <a href="#"><img src="/wp-content/uploads/2017/10/screen1.png"/><span>Web Design</span></a>
+                <a href="#"><img src="/wp-content/uploads/2017/10/screen2.jpg"/><span>SEO</span></a>
+                <a href="#"><img src="/wp-content/uploads/2017/10/screen3.jpg"/><span>Social Media</span></a>
+                <a href="#"><img src="/wp-content/uploads/2017/10/screen4.jpg"/><span>Ecommerce</span></a>
+                <!-- <a href="#"><img src="images/screen5.jpg"/><span>Flexitarian synth keytar blog master</span></a>
+                <a href="#"><img src="images/screen6.jpg"/><span>Next level retro flexitarian freegan</span></a>
+                <a href="#"><img src="images/screen7.jpg"/><span>Pour-over superious meggings terry</span></a>
+                <a href="#"><img src="images/screen8.jpg"/><span>Seitan william vinyl chillwave</span></a> -->
+            </div>
+        </div>  
+        <p>Click to toggle between single and grid view.</p>            
+    </div>
+</div><!-- /container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/iphone/appshowcase_3.js"></script>
+<script>
+    $(function() {
+        AppShowcase.init();
+    });
+</script>
+
+    
 </section> <!-- End imb-home-info-block -->
 
 <section id="drasi-home-social-proof"  class="main">
