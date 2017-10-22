@@ -45,7 +45,6 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_css/social-proof/style.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/_css/iphone/component3.css" />
 
-<!-- <script src="<?php echo get_template_directory_uri(); ?>/js/iphone/modernizr.custom.js"></script> -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/social-proof/modernizr.custom.26633.js"></script>
 
 <noscript>

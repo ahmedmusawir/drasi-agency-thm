@@ -15,7 +15,7 @@ body {
 
 /* Buttons */
 
-.btn {
+/* .btn {
 	display: inline-block;
 	cursor: pointer;
 	text-align: center;
@@ -40,7 +40,7 @@ body {
 
 .btn:hover {
 	background: rgba(251, 224, 148, 1);
-}
+} */
 
 .btn--trigger {
 	width: 15em;

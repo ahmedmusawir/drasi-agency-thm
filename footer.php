@@ -19,55 +19,60 @@ wp_footer();
 					<aside id="text-1" class="widget-footer-container widget_text">
 
 						<?php 
-							if ( ! is_active_sidebar( 'footer-sidebar-1' ) ) {
-								return;
-							}
+							// if ( ! is_active_sidebar( 'footer-sidebar-1' ) ) {
+							// 	return;
+							// }
 
-							dynamic_sidebar( 'footer-sidebar-1' ); 
-
-						?>
-
-				   	</aside>
-
-				
-				</article>
-
-				<article class="col-sm-12 col-md-12 col-lg-12">
-
-					<aside id="text-2" class="widget-footer-container widget_text">
-
-						<?php 
-							if ( ! is_active_sidebar( 'footer-sidebar-2' ) ) {
-								return;
-							}
-
-							dynamic_sidebar( 'footer-sidebar-2' ); 
+							// dynamic_sidebar( 'footer-sidebar-1' ); 
 
 						?>
 
+				
+						    <div class="footer__social">
+						        <ul class="social-links">
+						            <a href="https://www.facebook.com/" title="Facebook" class="social-links">
+						            </a>
+						            <a href="https://twitter.com/" title="Twitter" class="social-links">
+						            </a>
+						            <a href="https://plus.google.com/" title="Google Plus" class="social-links">
+						            </a>
+						        </ul>
+						    </div>
+
+						    <div class="footer__links">
+						        <a class="footer__links__link" href="/terms/">
+						        Terms
+						      </a>
+						        <span class="footer__links__divider">|</span> <a class="footer__links__link" href="/privacy/">
+						        Privacy
+						      </a>
+						    </div>
+
+						    <div class="footer__promotion">
+						        For business inquiries
+						        <svg width="21px" height="14px" viewBox="0 0 21 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						            <defs></defs>
+						            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						                <g id="arrow-black" transform="translate(1.000000, 1.000000)" stroke="#EE5050" stroke-width="2">
+						                    <g id="Group-Copy" transform="translate(9.000000, 6.000000) rotate(-270.000000) translate(-9.000000, -6.000000) translate(3.000000, -3.000000)">
+						                        <path d="M6,17.5 L6,0.470613634" id="Line" stroke-linecap="square"></path>
+						                        <polyline id="Path-5" points="0 5.84863281 5.81835937 0 11.5664252 5.74806587"></polyline>
+						                    </g>
+						                </g>
+						            </g>
+						        </svg> <a href="mailto:partnerships@nianticlabs.com">
+						        partnerships@nianticlabs.com
+						      </a>
+						    </div>
+
+						    <div id="copyright">
+						        Copyright © 2017 Niantic, Inc. All Rights Reserved.
+						        <br> © 2016-2017 Pokémon. © 1995-2017 Nintendo/Creatures Inc./GAME FREAK inc.
+						    </div>
+
 				   	</aside>
 
-				
 				</article>
-
-				<article class="col-sm-12 col-md-12 col-lg-12">
-
-					<aside id="text-3" class="widget-footer-container widget_text">
-
-						<?php 
-							if ( ! is_active_sidebar( 'page-bottom' ) ) {
-								return;
-							}
-
-							dynamic_sidebar( 'page-bottom' ); 
-
-						?>
-
-				   	</aside>
-
-				
-				</article>
-
 
 
 				<!-- <div id="copyright" class="copyright col-sm-12 col-md-12 col-lg-12">
@@ -82,7 +87,7 @@ wp_footer();
 				=            THIS IS FOR DEBUGGING. PLZ DISABLE WHEN READY TO PUBLISH            =
 				===============================================================================-->
 				
-				<div style="color: white"><strong>Current template:</strong> <?php echo get_current_template( true ); ?></div>
+				<!-- <div style="color: white"><strong>Current template:</strong> <?php echo get_current_template( true ); ?></div> -->
 				
 				<!--====  End of THIS IS FOR DEBUGGING. PLZ DISABLE WHEN READY TO PUBLISH  ====-->
 				

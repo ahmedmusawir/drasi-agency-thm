@@ -1,0 +1,87 @@
+/**
+ *
+ * HOME PAGE TOP HERO UNIT
+ * This involves the header area. Call-out section.
+ */
+
+#drasi-home-video-block {
+	min-height: 700px;
+	margin-top: 200px;
+	// border: 1rem dotted red;
+	position: relative;
+
+	background: url("/wp-content/uploads/2017/10/sample-paralax-bg.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;
+
+	#drasi-home-video {
+		margin-top: -150px;
+		z-index: 0;
+	}
+
+	#drasi-home-video-text {
+
+		.content-left {
+			  @include display(flex);
+			  @include align-items(center);
+			  @include flex-direction(row);
+			  @include justify-content(center);
+
+			  .text-only {
+			  	padding-top: 15rem;
+
+			  	.headline {
+			  		font-size: 10rem;
+			  		font-weight: 800;
+			  	}
+			  	.subheadline {
+			  		font-weight: 800;
+			  	}
+			  	.btn-holder {
+			  		.btn {
+			  			padding: 2rem 5rem;
+			  			border-radius: 50px;
+			  			color: darken( $imb-secondary, 30% );
+			  		}
+			  	}
+			  }
+		}
+
+		.content-right {
+			min-height: 800px;
+			margin-top: -200px;
+			z-index: 10;
+			position: relative;
+
+			.red-blob {
+				position: absolute;
+				z-index: -1;
+				top: 0;
+				left: 10%;
+			}	
+			.text-only {
+				padding-top: 8rem;
+				padding-left: 20rem;
+				padding-right: 15rem;
+				// z-index: 100;
+				// background: darken( $imb-secondary, 20% );
+
+				.headline {
+					color: $imb-secondary;
+					font-size: 4.5rem;
+				}
+				p {
+					font-size: 2rem;
+					line-height: 3rem;
+				}
+			}
+		}		
+	}
+
+}

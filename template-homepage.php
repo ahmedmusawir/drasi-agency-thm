@@ -117,7 +117,7 @@ get_header('home'); ?>
                         <div class="tilter__deco tilter__deco--overlay"></div>
                         <figcaption class="tilter__caption">
                             <h3 class="tilter__title">Justin Cupo</h3>
-                            <p class="tilter__description">The Man, The Mith, The Legend ...</p>
+                            <p class="tilter__description">The Man, The Myth, The Legend ...</p>
                         </figcaption>
                         <svg class="tilter__deco tilter__deco--lines" viewBox="10 0 300 115">
                             <path d="M20.5,20.5h260v375h-260V20.5z" />
@@ -423,7 +423,7 @@ get_header('home'); ?>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/img-15.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-8.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/img-16.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-3.jpg"/></a></li>
+            <!-- <li><a href="#"><img src="/wp-content/uploads/2017/10/img-3.jpg"/></a></li> -->
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-9.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/img-17.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-10.jpg"/></a></li>
@@ -457,14 +457,75 @@ get_header('home'); ?>
     });
 </script>
 
-<section class="container-fluid">
+<section id="drasi-home-video-block" class="container-fluid">
 
 	<main class="container">
 		
+        <figure id="drasi-home-video" class="col-sm-12 col-md-12 col-12">
 
+                <div class="embed-responsive embed-responsive-16by9">
+
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oH_LfXnklRw?wmode=opaque&autoplay=0&loop=1&controls=0&showinfo=0&rel=0"></iframe>
+
+                </div>
+
+        </figure>
+
+        <div id="drasi-home-video-text" class="row">
+
+            <figure class="col-md-4 col-lg-4">
+                <div class="content-left">
+                    <article class="text-only">
+                        <h1 class="headline">Join Us</h1>
+                        <h3 class="subheadline">We are here to help ...</h3>
+                        <h1 class="btn-holder">
+                            <a class="btn btn-primary btn-lg" href="#">CLICK HERE</a>
+                        </h1>
+                    </article>
+                </div>
+            </figure>
+            <figure class="col-md-8 col-lg-8">
+                <div class="content-right">
+                    
+                    <article class="text-only">
+                        <h1 class="headline">Yes! We kick ass and take names!!</h1>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </article>
+                    <img class="img-responsive red-blob" src="/wp-content/uploads/2017/10/drasi-home-bottom-green-blog.png" alt="">
+
+                </div>      
+            </figure>        
+            
+        </div>
 
 	</main>	
 	
 </section> <!-- End imb-home-info-block -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 get_footer();
