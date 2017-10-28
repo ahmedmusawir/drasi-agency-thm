@@ -81,7 +81,7 @@ get_header('home'); ?>
 	<main class="container">
 		
         <figure class="col-md-2 col-lg-2"></figure>
-		<figure class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+		<figure class="col-md-10 col-lg-10">
             <div class="content">
                 <article class="text-only">
                     <h1 class="headline">Yes! We kick ass and take names!!</h1>
@@ -110,7 +110,7 @@ get_header('home'); ?>
 
             <section class="content content--c2">
 
-                <a href="#" class="tilter tilter--2" >
+                <a href="#" class="tilter tilter--2">
                     <figure class="tilter__figure">
                         <img class="tilter__image" src="/wp-content/uploads/2017/10/justin-cupo.jpg" alt="img03" />
                         <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -124,16 +124,6 @@ get_header('home'); ?>
                         </svg>
                     </figure>
                 </a>
-                <!--================================================
-                =            CUPO IMAGE FOR MOBILE ONLY            =
-                =================================================-->
-                
-                <a id="cupo-img-mobile" href="#">
-                    <img class="img-responsive" src="/wp-content/uploads/2017/10/drasi-home-cupo-mobile-460x330.jpg" alt="">
-                </a>
-                
-                <!--====  End of CUPO IMAGE FOR MOBILE ONLY  ====-->
-                
 
                 <div class="box-content col-md-offset-5">
                     <article class="text-content">
@@ -380,7 +370,7 @@ get_header('home'); ?>
             <h2>Our Focus <span>Click &amp; Find Out</span></h2>
             <div class="ac-device">
                 <a href="#"><img src="/wp-content/uploads/2017/10/screen1.png"/></a>
-                <h3 class="ac-title">The Best Digital Media Agency</h3>
+                <h3 class="ac-title">Gentrify small batch umami retro vegan</h3>
                 <nav>
                     <span>&lt;</span>
                     <span>&gt;</span>
@@ -419,31 +409,31 @@ get_header('home'); ?>
 
             <li><a href="#"><img src="/wp-content/uploads/2017/10/img-1.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-2.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-11.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-10.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-17.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-3.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-16.jpg"/></a></li>
-            <!-- <li><a href="#"><img src="/wp-content/uploads/2017/10/img-6.jpg"/></a></li> -->
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-3.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-4.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-11.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/img-4.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-16.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-3.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-1.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-3.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-5.jpg"/></a></li>
+            <!-- <li><a href="#"><img src="/wp-content/uploads/2017/10/img-6.jpg"/></a></li> -->
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-7.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-4.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-8.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-2.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-10.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-5.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/img-11.jpg"/></a></li>
             <!-- <li><a href="#"><img src="/wp-content/uploads/2017/10/img-3.jpg"/></a></li> -->
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-15.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-12.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-6.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-8.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-13.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-7.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-10.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-5.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-14.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-15.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-8.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-4.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-16.jpg"/></a></li>
             <!-- <li><a href="#"><img src="/wp-content/uploads/2017/10/img-3.jpg"/></a></li> -->
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-9.jpg"/></a></li>
-            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-2.jpg"/></a></li>
+            <li><a href="#"><img src="/wp-content/uploads/2017/10/img-17.jpg"/></a></li>
             <li><a href="#"><img src="/wp-content/uploads/2017/10/logo-10.jpg"/></a></li>
             
         </ul>

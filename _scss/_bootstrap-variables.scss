@@ -39,7 +39,7 @@ $black       : #000000;
 // $brand-primary:         darken(#428bca, 6.5%); // #337ab7;
 // $brand-primary:  darken( #FFFC13, 30% );
 
-$brand-primary:         #bbff0f; //lime green
+$brand-primary:         darken( #bbff0f, 10% ); //lime green
 $brand-success:         #434876; //dark blue
 $brand-info:            $tiana-teal;
 // $brand-info:            #5bc0de;

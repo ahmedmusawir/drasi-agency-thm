@@ -1,37 +1,4 @@
-#drasi-home-tilt-image-unit {
-	.content--c2 {
-		// border: 3px dotted red;
-		position: relative;
-		margin-top: -250px;
 
-		.box-content {
-			// border: 2px dotted red;
-			position: absolute;
-			width: 50%;
-			height: 350px;
-			background-color: white;
-			margin-top: -250px;
-			// margin-right: -100px;
-			z-index: 100;
-			box-shadow: 5px 5px 15px gray;
-
-			.text-content {
-				padding: 4rem;
-
-				.headline {
-					color: gray !important;
-					font-style: italic;
-					// border: 1px dotted red;
-				}
-				p {
-					color: darken( gray, 10% );
-				}
-
-			}
-		}		
-
-	}
-}
 .tilter {
 	display: block;
 	// position: relative;

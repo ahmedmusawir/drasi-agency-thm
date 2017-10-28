@@ -1,22 +1,3 @@
-#drasi-home-tilt-image-unit .content--c2 {
-  position: relative;
-  margin-top: -250px; }
-  #drasi-home-tilt-image-unit .content--c2 .box-content {
-    position: absolute;
-    width: 50%;
-    height: 350px;
-    background-color: white;
-    margin-top: -250px;
-    z-index: 100;
-    box-shadow: 5px 5px 15px gray; }
-    #drasi-home-tilt-image-unit .content--c2 .box-content .text-content {
-      padding: 4rem; }
-      #drasi-home-tilt-image-unit .content--c2 .box-content .text-content .headline {
-        color: gray !important;
-        font-style: italic; }
-      #drasi-home-tilt-image-unit .content--c2 .box-content .text-content p {
-        color: #676767; }
-
 .tilter {
   display: block;
   /* width: 40%; */

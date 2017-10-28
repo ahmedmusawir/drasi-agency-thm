@@ -28,10 +28,10 @@
 	#drasi-home-video-text {
 
 		.content-left {
-			  @include display(flex);
-			  @include align-items(center);
-			  @include flex-direction(row);
-			  @include justify-content(center);
+			  // @include display(flex);
+			  // @include align-items(center);
+			  // @include flex-direction(row);
+			  // @include justify-content(center);
 
 			  .text-only {
 			  	padding-top: 15rem;
@@ -47,7 +47,8 @@
 			  		.btn {
 			  			padding: 2rem 5rem;
 			  			border-radius: 50px;
-			  			color: darken( $imb-secondary, 30% );
+			  			color: darken( $gray-lighter, 0% );
+			  			// color: darken( $imb-secondary, 30% );
 			  		}
 			  	}
 			  }
@@ -66,9 +67,9 @@
 				left: 10%;
 			}	
 			.text-only {
-				padding-top: 8rem;
-				padding-left: 20rem;
-				padding-right: 15rem;
+				padding-top: 12rem;
+				padding-left: 25rem;
+				padding-right: 5rem;
 				// z-index: 100;
 				// background: darken( $imb-secondary, 20% );
 

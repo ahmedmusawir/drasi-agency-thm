@@ -5,11 +5,57 @@
  */
 
 .footer-container {
-	background-color: darken( $steel, 20% );
+	// background-color: darken( $steel, 20% );
+	background: url("/wp-content/uploads/2017/10/sample-paralax-bg.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;	
 	// background: url('/wp-content/uploads/2017/06/heather-skulls.jpg') fixed;
 	// border: 1rem solid red;
 }
 #footer-main {
+	padding: 3rem 5rem;
+
+	.footer-social {
+		.social-links-holder {
+			text-align: left;
+			margin: 0;
+			padding: 0;
+			
+			.social-links {
+				color: darken( $imb-secondary, 5% );
+				padding-right: 2rem;
+				// margin-bottom: 3rem !important;
+			}			
+		}
+	}
+
+	.footer-links {
+		padding-top: 2rem;
+
+		.footer-link {
+			font-size: 2rem;
+			color: darken( $imb-secondary, 10% );
+			padding-right: 1rem;
+		}
+		.footer-divider {
+			padding-right: 1rem;
+			font-size: 2rem;
+		}
+	}
+
+	.footer-promotion {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+		a {
+			color: darken( $imb-secondary, 0% );
+		}
+	}
 
 	#copyright {
 

@@ -12,7 +12,7 @@ wp_footer();
 ?>
 		<div class="footer-container container-fluid">
 
-			<footer id="footer-main" class="footer-main">
+			<footer id="footer-main" class="footer-main container">
 
 				<article class="col-sm-12 col-md-12 col-lg-12">
 
@@ -28,27 +28,30 @@ wp_footer();
 						?>
 
 				
-						    <div class="footer__social">
-						        <ul class="social-links">
+						    <div class="footer-social">
+						        <ul class="social-links-holder">
 						            <a href="https://www.facebook.com/" title="Facebook" class="social-links">
+						            	<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
 						            </a>
 						            <a href="https://twitter.com/" title="Twitter" class="social-links">
+						            	<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 						            </a>
 						            <a href="https://plus.google.com/" title="Google Plus" class="social-links">
+						            	<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
 						            </a>
 						        </ul>
 						    </div>
 
-						    <div class="footer__links">
-						        <a class="footer__links__link" href="/terms/">
+						    <div class="footer-links">
+						        <a class="footer-link" href="/terms/">
 						        Terms
 						      </a>
-						        <span class="footer__links__divider">|</span> <a class="footer__links__link" href="/privacy/">
+						        <span class="footer-divider">|</span> <a class="footer-link" href="/privacy/">
 						        Privacy
 						      </a>
 						    </div>
 
-						    <div class="footer__promotion">
+						    <div class="footer-promotion">
 						        For business inquiries
 						        <svg width="21px" height="14px" viewBox="0 0 21 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						            <defs></defs>
@@ -60,14 +63,13 @@ wp_footer();
 						                    </g>
 						                </g>
 						            </g>
-						        </svg> <a href="mailto:partnerships@nianticlabs.com">
-						        partnerships@nianticlabs.com
+						        </svg> <a href="mailto:support@drasimedia.com">
+						        support@drasimedia.com
 						      </a>
 						    </div>
 
 						    <div id="copyright">
-						        Copyright © 2017 Niantic, Inc. All Rights Reserved.
-						        <br> © 2016-2017 Pokémon. © 1995-2017 Nintendo/Creatures Inc./GAME FREAK inc.
+						        Copyright © 2017 Drasi Media, LLC. All Rights Reserved.
 						    </div>
 
 				   	</aside>
